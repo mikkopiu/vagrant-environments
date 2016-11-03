@@ -1,24 +1,11 @@
 # Ubuntu 14.04 LTS with Docker in VirtualBox
 
-#### System information
-
-- OS: Ubuntu 14.04 LTS
-- Provider: VirtualBox
-- RAM: 2GB
-- CPUs: 2
-- Installed software:
-  * docker-engine (latest)
-  * docker-compose (v1.8.1)
-  * git (latest)
-  * nano (latest)
-  * Chromium browser (latest)
-
-### Prerequisites
+## Prerequisites
 
 - [Vagrant](https://www.vagrantup.com/downloads.html)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
-### Running
+## Running
 
 ```shell
 git clone git@github.com:mikkopiu/vagrant-environments.git
@@ -46,3 +33,16 @@ Set Git credentials
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
+
+## System information
+
+- OS: Ubuntu 14.04 LTS
+- Provider: VirtualBox
+- RAM: 2GB
+- CPUs: 2
+- Installed software:
+  * docker-engine (latest)
+  * docker-compose (v1.8.1)
+  * git (latest)
+  * nano (latest)
+  * Chromium browser (latest)
