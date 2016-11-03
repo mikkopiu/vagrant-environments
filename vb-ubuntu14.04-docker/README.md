@@ -38,7 +38,8 @@ or from the terminal:
 dpkg-reconfigure keyboard-configuration
 ```
 
-Copy your SSH key to `~/.ssh`, easiest through the Vagrant folder which is shared by default and mounted to VM at `/vagrant`
+Copy your SSH key to `~/.ssh`: easiest through the Vagrant folder (the folder
+you ran `vagrant up` from) mounted to VM at `/vagrant`.
 
 Set Git credentials
 ```shell
